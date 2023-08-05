@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Mobile Phones Brand and Model List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Samsung</td>
+                <td>A30</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>A10</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>A20</td>
+            </tr>
+            <tr>
+                <td>Vivo</td>
+                <td>Y20</td>
+            </tr>
+            <tr>
+                <td>Vivo</td>
+                <td>Y11</td>
+            </tr>
+            <tr>
+                <td>Vivo</td>
+                <td>Y15</td>
+            </tr>
+            <tr>
+                <td>Motrolla</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>IPhone</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>IPhone</td>
+                <td>13</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <label for="">User input brand name:
+        <input type="text" name="brandSelect" placeholder="search">
+        <select id="modelSelect">
+            <option disabled selected>MODELS</option>
+            <optgroup label="Samsung" class="brandSelect">
+                <option value="A10">A10</option>
+                <option value="A20">A20</option>
+                <option value="A30">A30</option>
+            </optgroup>
+
+            <optgroup label="Motrolla" class="brandSelect">
+                <option value="123">123</option>
+            </optgroup>
+
+            <optgroup label="Vivo" class="brandSelect">
+                <option value="Y11">Y11</option>
+                <option value="Y15">Y15</option>
+                <option value="Y20">Y20</option>
+            </optgroup>
+
+            <optgroup label="IPhone" class="brandSelect">
+                <option value="13">13</option>
+                <option value="14">14</option>
+            </optgroup>
+        </select>
+    </label>
+
+    <button onclick='hey()'>
+        click here
+    </button>
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>
